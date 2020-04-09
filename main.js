@@ -20,13 +20,13 @@ function preload(){
         "map.png"
       );
       img2=loadImage(
-        "imgbin-a-cartoon-plane-pulls-flags-blue-and-yellow-plane-illustratiojn-JFQ8pre6mKMe2SaPzVc2CJaSE.jpg" 
+        "plane.jpg" 
       );
       img3=loadImage(
-        "correct-location-vector-3734866.png"
+        "correct.png"
       );
       img4=loadImage(
-        "5613967601_62d4b0573a_b.jpg" 
+        "openBook.jpg" 
       );
            game.init();
 }
@@ -55,6 +55,7 @@ function mousePressed(){
 	  if(d<=50){
 		  game.getRandomCountry();
   } 
+  console.log("here")
 }
 }
 
