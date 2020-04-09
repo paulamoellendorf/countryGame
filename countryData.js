@@ -4,14 +4,15 @@ let countries = {
 		x: 228,
 		y: 245,
 		radius: 60,
-		infos: "asdfasdfasdasf"
+		//height:,
+		infos: "asdfasdfasdasf",
 	},
 	Germany: {
 		nation:"Deutschland",
 		x: 605,
 		y: 201,
 		radius: 15,
-		infos: " "
+		infos: " ",
 	},
 	France: {
 		nation:"Frankreich",
@@ -46,7 +47,7 @@ let countries = {
 		x:883,
 		y:148,
 		radius:90,
-		infos:"hah",
+		infos:"h \h \h\ bonjou",
 	},
 	Namibia:{
 		nation:"Namibia",
@@ -78,18 +79,22 @@ class Country {
         this.nation = countryName;
         this.x = xCord;
 		this.y = yCord;
-        this.radius = radius;
+		this.radius = radius;
+		//this.height=height;
 		this.infos = infos;
     }
   display(){
     fill ("red");
 circle(this.x, this.y,this.radius);
+//ellipse(this.x, this.y, this.radius, this.height);
   }
  clicked(){
+	 //let d=dist(mouseX, mouseY, this.x, this.y);
+	 //if(d<=this.radius){
+		//game.clickedCountry = this.nation;
 	  let d=dist(mouseX, mouseY, this.x, this.y);
 	  if(d<=this.radius){
 		  game.clickedCountry = this.nation;
   } 
 }
-
 }

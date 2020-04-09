@@ -45,21 +45,27 @@ this.info();
     };
     
     info(){
+        
        image(img4, 0, 0,1252, 588);
-       image(img3,231, 165,250,250);
+       image(img3,200, 150,250,250);
+       push();
        fill(50);
-       text(`${this.randomInfos}`, 508,526,300, 150);
-       fill("white");
-       circle(622, 523, 50);
+       textSize(50);
+       text(`${this.randomCountry}`,727.6124100719425, 118.03125 ,300, 150);
+       pop();
+       push();
+       textSize(25);
+       text(`${this.randomInfos}`,727.6124100719425, 200.03125 ,300, 150);
+       //textAlign(CENTER, CENTER);
+       pop();
+       push();
+       fill('#FECB20');
+       stroke('#FECB20')
+       rect(870.7203237410072, 427.03125, 100, 55, 20);
+       //circle(922.7682853717026, 448.03125, 100);
+       fill('#EEAF00');
+       text("Weiterreise",878.7682853717026, 448.03125,50 );
+       pop();
     }
 
-
-    
-    
-    /*play(){
-        let str=this.random[country].nation;
-        fill(50);
-     text(str, 600, 250, 300,300);
-
-    }*/
 }

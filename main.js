@@ -20,7 +20,7 @@ function preload(){
         "map.png"
       );
       img2=loadImage(
-        "plane.jpg" 
+        "plane1.png" 
       );
       img3=loadImage(
         "correct.png"
@@ -51,8 +51,8 @@ function mousePressed(){
      game.countryList[i].clicked();
     }
     if(game.randomCountry == game.clickedCountry) {
-    let d=dist(mouseX, mouseY, 50, 50);
-	  if(d<=50){
+    let d=dist(mouseX, mouseY,922.7682853717026, 451.03125 );
+	  if(d<=100){
 		  game.getRandomCountry();
   } 
   console.log("here")
@@ -61,6 +61,6 @@ function mousePressed(){
 
 
 
-function mouseClicked(){
- console.log(mouseX,mouseY)
-}
+//function mouseClicked(){
+ //console.log(mouseX,mouseY)
+//}
