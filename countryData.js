@@ -19,7 +19,7 @@ let countries = {
 		x: 580,
 		y: 220,
 		radius: 17,
-		infos:"Bonjour de France! Das ist französich und heißt so viel wie Guten Tag aus Frankreich! Die Hauptstadt Paris ist weltweit wegen ihrer Kultur bekannt und wegen des Eiffelturms. In Paris und Umgebung wohnt etwa jeder fünfte Franzose, und alle wichtigen Autobahnen und Eisenbahnen führen nach Paris. Seit hunderten von Jahren schauten die Menschen in Europa nach Frankreich. Die französische Kultur galt als besonders fein und vorbildhaft: die Kleidung, die Literatur, der Wein oder auch das Essen wie einer der über 1000 Käsesorten. Auf Wiedersehen und gute Weiterreise oder wie der Franzose sagen würde Au revoir et bon voyage! ",
+		infos:"Bonjour de France! Das ist Französich und heißt so viel wie Guten Tag aus Frankreich! Die Hauptstadt Paris ist weltweit wegen ihrer Kultur bekannt und wegen des Eiffelturms. In Paris und Umgebung wohnt etwa jeder fünfte Franzose, und alle wichtigen Autobahnen und Eisenbahnen führen nach Paris. Seit hunderten von Jahren schauten die Menschen in Europa nach Frankreich. Die französische Kultur galt als besonders fein und vorbildhaft: die Kleidung, die Literatur, der Wein oder auch das Essen wie einer der über 1000 Käsesorten. Auf Wiedersehen und gute Weiterreise oder wie der Franzose sagen würde Au revoir et bon voyage! ",
 	},
 	Brazil: {
 		nation:"Brasilien",
@@ -33,7 +33,7 @@ let countries = {
 		x:188,
 		y:168,
 		radius:70,
-		infos:"In Kanada angekommen, können wir die Kanadiar auf Englisch begrüßen mit Hello! How are you? aber auch auf französisch mit Bonjour!!! Ca va?. Das liegt daran, das Frankreich, aber auch Großbritannien einst ihre Kolonien hier hatten. In den großen Waldregionen wachsen die Symbole des Landes heran. Die Ahornbäume, deren süßen Saft du sicher auch schon oft kosten durftest. In Deutschland ist dieser unter Ahornsirup, in Kanada unter der maple sirup bekannt. Die charakteristischen Blätter des Ahornbaume findest du auf der kanadischen Flagge.",
+		infos:"In Kanada angekommen, können wir die Kanadier auf Englisch begrüßen mit Hello! How are you? aber auch auf Französisch mit Bonjour!!! Ca va?. Das liegt daran, das Frankreich, aber auch Großbritannien einst ihre Kolonien hier hatten. In den großen Waldregionen wachsen die Symbole des Landes heran. Die Ahornbäume, deren süßen Saft du sicher auch schon oft kosten durftest. In Deutschland ist dieser unter Ahornsirup, in Kanada unter maple sirup bekannt. Die charakteristischen Blätter des Ahornbaumes findest du auf der kanadischen Flagge.",
 	},
 	Australia:{
 		nation:"Australien",
@@ -54,7 +54,7 @@ let countries = {
 		x:629.6666870117188,
 		y:454,
 		radius:15,
-		infos:"",
+		infos:"Namibia liegt im Westen Südafrikas und ist ein trockenes Land. Dort liegt die Namib-Wüste,in der es die höchsten Sanddünen der ganzen Welt gibt. Tiere und Pflanzen müssen sich dem harten Klima anpassen. Affenbrotbäume haben zum Beispiel sehr tiefe Wurzeln und erreichen so das Grundwasser. Einige sind über 4.000 Jahre alt. Namibia war früher eine deutsche Kolonie, was man manchen Städtenamen wie Lüderitz oder Karasburg noch heute ansieht. Der Nationalfeiertag am 21. März wird mit farbenprächtigen Umzügen begangen und so gitdie Unabhängigkeit von Deutschland gefeiert. ",
 
 	},
 	Argentinien:{
@@ -62,7 +62,7 @@ let countries = {
 		x:350.3333435058594,
 		y:500.6666717529297,
 		radius:30,
-		infos:"Buenas dìas!!! In Argentinien spricht die Mehrheit der Bevölkerung auf Spanisch. Empanada ist nur eine der zahlreichen Spezialitäten in Argentinien. Man geht davon aus, dass die Empanada das erste Mal von Immigranten aus Nordspanien zubereitet wurde. Der ursprünglich mit Teig zubereitete Kuchen entwickelte sich über die Zeit weiter den charakteristischen Teigtaschen mit einer großen Auswahl an Füllungen. Jetzt bist du an der Reihe: bereite deine eigene Empanada zu: https://www.lecker.de/empanadas-mit-haehnchenfuellung-4239.html - buen provecho!  ",
+		infos:"Buenas dìas!!! In Argentinien unterhält sich die Mehrheit der Bevölkerung auf Spanisch. Empanada ist nur eine der zahlreichen Spezialitäten in Argentinien. Man geht davon aus, dass die Empanada das erste Mal von Immigranten aus Nordspanien zubereitet wurde. Der ursprünglich mit Teig zubereitete Kuchen entwickelte sich über die Zeit weiter den charakteristischen Teigtaschen mit einer großen Auswahl an Füllungen. Jetzt bist du an der Reihe: bereite deine eigene Empanada zu: https://www.lecker.de/empanadas-mit-haehnchenfuellung-4239.html - buen provecho!  ",
 	},
 
 	}
